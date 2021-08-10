@@ -1,0 +1,8 @@
+.header__navigation-item {
+    @include navigation-list;
+    margin-bottom: 80px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}

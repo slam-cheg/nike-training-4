@@ -1,0 +1,7 @@
+.first-block__title {
+    @include title;
+    max-width: 460px;
+    padding-top: 208px;
+    padding-left: 20px;
+}
+

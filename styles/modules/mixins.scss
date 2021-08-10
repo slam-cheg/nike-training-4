@@ -1,0 +1,21 @@
+@mixin title {
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80px;
+    color: $dark-color;
+    margin: 0;
+}
+
+@mixin navigation-list {
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $light-color;
+    text-decoration: none;
+}
