@@ -10,38 +10,94 @@
 
 <body class="page">
     <header class="header">
-        <div class="header__burger">
-            <span class="header__burger-line"></span>
-            <span class="header__burger-line"></span>
-            <span class="header__burger-line"></span>
-        </div>
-        <div class="header__menu">
-            <div class="header__menu-icon">
-                <span class="header__menu-line"></span>
-                <span class="header__menu-line"></span>
+        <div class="header-wrapper">
+            <div class="header__burger">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
             </div>
-            <nav class="header__navigation">
-                <ul class="header__navigation-list">
-                    <li class="header__navigation-item"><a class="header__navigation-item" href="#about">О коллекции</a></li>
-                    <li class="header__navigation-item"><a class="header__navigation-item" href="#products">Товары</a></li>
-                    <li class="header__navigation-item"><a class="header__navigation-item" href="#subscribe">Подписаться</a></li>
-                </ul>                
-            </nav>
+            <div class="header__menu">
+                <div class="header__menu-icon">
+                    <span class="header__menu-line"></span>
+                    <span class="header__menu-line"></span>
+                </div>
+                <nav class="header__navigation">
+                    <ul class="header__navigation-list">
+                        <li class="header__navigation-item"><a class="header__navigation-item" href="#about">О
+                                коллекции</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-item"
+                                href="#products">Товары</a></li>
+                        <li class="header__navigation-item"><a class="header__navigation-item"
+                                href="#subscribe">Подписаться</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <h1 class="header__title">NIKE X MMW TRAINING 4.0</h1>
         </div>
     </header>
 
     <main>
 
-        <section class="first-block">
-            <h1 class="first-block__title">NIKE X MMW TRAINING 4.0</h1>
+        <section class="about">
+            <h2 class="about__title">О коллекции</h2>
+            <div class="about__content">
+                <p class="about__text">Разум или тело, движение или покой, спорт или отдых&nbsp;&mdash; дисциплина
+                    всегда остаётся движущей силой прогресса. Открой для себя мир невероятной концентрации
+                    и&nbsp;преданности делу. Дизайнер Мэттью Уильямс, визажистка Исамайя Ффренч и&nbsp;музыкант
+                    Ив&nbsp;Тюмор показывают, каких результатов можно достичь благодаря упорству.</p>
+                <img src="images/about-image.jpg" alt="о коллекции" class="about__image">
+            </div>
+            <img src="images/third-image.jpg" alt="о коллекции" class="about__background">
+            <div class="about__content">
+                <p class="about__subtitle">Тренинг&nbsp;&mdash; это не&nbsp;просто физическая активность</p>
+                <p class="about__text">Это практика для тела и&nbsp;разума, за&nbsp;которой стоят концентрация
+                    и&nbsp;дисциплина. Мэттью Уильямс выражает эту идею через чередование движения и&nbsp;осознанности.
+                    Исамайя Ффренч исследует свою способность совершать тяжёлые повторяющиеся действия с&nbsp;помощью
+                    йоги. Ив&nbsp;Тюмор превращает силовые тренировки в&nbsp;эксперимент по&nbsp;испытанию силы духа.
+                </p>
+            </div>
         </section>
+
+        <section class="products">
+            <h2 class="products__title">Товары</h2>
+            <div class="slider">
+                <button class="slider__arrow slider__arrow_left" type="button" aria-label="назад"></button>
+                <div class="slider__track">
+                    <div class="slider__card">
+                        <img src="images/slider-1.jpg" alt="товар один" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+                    </div>
+                    <div class="slider__card">
+                        <img src="images/slider-2.jpg" alt="товар два" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+                    </div>
+                    <div class="slider__card">
+                        <img src="images/slider-3.jpg" alt="товар три" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+                    </div>
+                    <div class="slider__card">
+                        <img src="images/slider-4.jpg" alt="товар четыре" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+                    </div>
+                    <div class="slider__card">
+                        <img src="images/slider-6.jpg" alt="товар пять" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+                    </div>
+                </div>
+
+                <button class="slider__arrow slider__arrow_right" type="button" aria-label="вперед"></button>
+            </div>
+        </section>
+
+
 
     </main>
 
     <footer>
 
     </footer>
-<script src="script/index.js"></script>
+    <script src="script/index.js"></script>
 </body>
 
 </html>

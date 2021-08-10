@@ -1,0 +1,11 @@
+@import './__card/slider__card.scss';
+@import './__image/slider__image.scss';
+@import './__button/slider__button.scss';
+@import './__arrow/slider__arrow.scss';
+@import './__track/slider__track.scss';
+
+.slider {
+    display: flex;
+    position: relative;
+    align-items: center;
+}

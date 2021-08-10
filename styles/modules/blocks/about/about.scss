@@ -1,0 +1,10 @@
+@import './__title/about__title.scss';
+@import './__content/about__content.scss';
+@import './__text/about__text.scss';
+@import './__image/about__image.scss';
+@import './__background/about__background.scss';
+@import './__subtitle/about__subtitle.scss';
+
+.about {
+    background-color: $dark-color;
+}

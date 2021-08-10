@@ -1,0 +1,6 @@
+.products__title {
+    @include title;
+    color: $light-color;
+    margin-bottom: 40px;
+    text-align: center;
+}

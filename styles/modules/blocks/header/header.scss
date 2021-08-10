@@ -8,8 +8,12 @@
 @import './__navigation-list/header__navigation-list.scss';
 @import './__navigation-item/header__navigation-item.scss';
 @import './__navigation/header__navigation.scss';
+@import './__title/header__title.scss';
 
 .header {
     width: 100%;
     position: relative;
+    height: 100vh;
+    background-image: url('../../../../images/main-background.jpg');
+    @include background-settings;
 }

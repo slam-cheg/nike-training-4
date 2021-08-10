@@ -1,0 +1,12 @@
+.about__content {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: calc(100% - 40px);
+    margin: 0 20px 0 20px;
+    justify-content: space-between;
+    padding-bottom: 80px;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+}

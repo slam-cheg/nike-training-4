@@ -1,0 +1,23 @@
+.slider__button {
+    @include button-settings;
+    padding: 8px 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: #292929;
+}
+::-webkit-scrollbar-thumb {
+    background: #EBEBEB;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background: #000;
+    border-radius: 100px;
+}
