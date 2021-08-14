@@ -1,2 +1,19 @@
 $light-color: #fff;
 $dark-color: #0a0a0a;
+
+#font-size {
+    $title: 64px !global;
+    $subtitle: 32px !global;
+    $text: 16px !global;
+}
+
+#line-height {
+    $height-l: 80px !global;
+    $height-m: 40px !global;
+    $height-s: 24px !global;
+}
+
+#font-weight {
+    $medium-w: 500 !global;
+    $normal-w: 400 !global;
+}

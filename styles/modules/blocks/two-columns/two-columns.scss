@@ -1,10 +1,10 @@
-.about__content {
+.two-columns {
     display: flex;
     flex-wrap: nowrap;
     max-width: calc(100% - 40px);
     margin: 0 20px 0 20px;
     justify-content: space-between;
-    padding-bottom: 80px;
+    padding: 80px 0 80px 0;
 
     &:last-of-type {
         margin-right: 0;
