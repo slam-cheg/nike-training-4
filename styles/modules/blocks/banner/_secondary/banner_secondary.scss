@@ -1,0 +1,11 @@
+.banner_secondary {
+    padding-top: 80px;
+
+    @media screen and (max-width: 1439px) {
+        height: initial;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding-top: 40px;
+    }
+}

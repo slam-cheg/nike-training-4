@@ -1,5 +1,11 @@
 .footer__text {
     @include text;
     text-align: center;
-    padding-bottom: 40px;
+    padding: 20px 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 20px 0;
+        margin: 0 auto;
+        max-width: calc(100% - 40px);
+    }
 }

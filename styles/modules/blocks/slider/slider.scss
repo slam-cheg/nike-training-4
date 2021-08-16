@@ -10,4 +10,9 @@
     align-items: center;
     height: 400px;
     overflow: hidden;
+    margin-top: 80px;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 40px;
+    }
 }

@@ -3,4 +3,8 @@
     border: 1px solid $light-color;
     height: 40px;
     padding: 8px 24px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 }

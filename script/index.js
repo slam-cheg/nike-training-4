@@ -4,8 +4,7 @@ const menuCover = document.querySelector('.header__menu');
 const sliderTrack = document.querySelector('.slider__track');
 const nextButton = document.querySelector('.slider__arrow_right');
 const prevButton = document.querySelector('.slider__arrow_left');
-const card = document.querySelector('.slider__card');
-const cardWidth = card.offsetWidth;
+const cardWidth = document.querySelector('.slider__card').offsetWidth;
 
 let offset = 0;
 
