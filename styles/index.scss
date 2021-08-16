@@ -1,0 +1,17 @@
+@import '../vendor/normalize.css';
+@import '../vendor/fonst/fonts.css';
+@import './modules/mixins.scss';
+@import './modules/variables.scss';
+@import './modules/blocks/title/title.scss';
+@import './modules/blocks/page/page.scss';
+@import './modules/blocks/header/header.scss';
+@import './modules/blocks/about/about.scss';
+@import './modules/blocks/products/products.scss';
+@import './modules/blocks/slider/slider.scss';
+@import './modules/blocks/slider/__card/slider__card.scss';
+@import './modules/blocks/slider/__image/slider__image.scss';
+@import './modules/blocks/slider/__button/slider__button.scss';
+@import './modules/blocks/banner/banner.scss';
+@import './modules/blocks/two-columns/two-columns.scss';
+@import './modules/blocks/two-columns/__container/two-columns__container.scss';
+@import './modules/blocks/footer/footer.scss';

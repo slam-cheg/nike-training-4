@@ -1,0 +1,9 @@
+.slider__track {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    transition: .3s;
+}

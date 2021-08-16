@@ -1,0 +1,5 @@
+@import './_header/title_header.scss';
+
+.title {
+    @include h2;
+}

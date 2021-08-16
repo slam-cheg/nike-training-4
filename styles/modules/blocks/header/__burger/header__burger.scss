@@ -1,0 +1,14 @@
+.header__burger {
+    position: relative;
+    padding: 40px 0 0 20px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

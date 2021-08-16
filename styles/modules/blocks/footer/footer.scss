@@ -1,0 +1,12 @@
+@import './__text/footer__text.scss';
+@import './__form/footer__form.scss';
+@import './__form/_input/footer__form_input.scss';
+@import './__form/_button/footer__form_button.scss';
+@import './__copyright/footer__copyright.scss';
+
+.footer {
+    background-color: #0a0a0a;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+}
