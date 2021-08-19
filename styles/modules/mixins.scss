@@ -81,6 +81,16 @@
     color: $light-color;
     text-decoration: none;
     margin: 0;
+
+    @media screen and (max-width: 1139px) {
+        font-size: $font-m;
+        line-height: $height-m;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: $font-s;
+        line-height: $height-s;
+    }
 }
 
 @mixin background-settings {
