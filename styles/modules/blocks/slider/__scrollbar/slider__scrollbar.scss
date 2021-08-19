@@ -1,0 +1,18 @@
+.swiper-scrollbar-drag {
+    background: #EBEBEB;
+}
+
+.swiper-container-horizontal>.swiper-scrollbar {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    z-index: 50;
+    margin: 40px auto 0 auto;
+    height: 5px;
+    background-color: #292929;
+    width: calc(100% - 40px);
+
+    @media screen and (max-width: 768px) {
+        margin: 20px auto 0 auto;
+    }
+}

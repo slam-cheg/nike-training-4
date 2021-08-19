@@ -1,53 +1,81 @@
 @mixin h1 {
     font-family: "Golos";
     font-weight: $medium-w;
-    font-size: $title;
-    line-height: $height-l;
+    font-size: $font-xl;
+    line-height: $height-xl;
     text-transform: uppercase;
     text-align: left;
     color: $dark-color;
     padding: 120px 0 40px 0;
     max-width: 620px;
     margin: 0 0 0 20px;
+
+    @media screen and (max-width: 1139px) {
+        padding: 80px 0 40px 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 40px 0 20px 0;
+        font-size: $font-l;
+        line-height: $height-l;
+        max-width: 300px;
+    }
 }
 
 @mixin h2 {
     font-family: "Golos";
     font-weight: $medium-w;
-    font-size: $title;
-    line-height: $height-l;
+    font-size: $font-xl;
+    line-height: $height-xl;
     text-transform: uppercase;
     text-align: center;
     color: $light-color;
-    padding: 80px 0 40px 0;
+    padding-top: 80px;
     max-width: 930px;
     margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 40px;
+        font-size: $font-l;
+        line-height: $height-l;
+    }
 }
 
 @mixin subtitle {
     font-family: "Golos";
     font-weight: $medium-w;
-    font-size: $subtitle;
-    line-height: $height-m;
+    font-size: $font-l;
+    line-height: $height-l;
     text-transform: uppercase;
     max-width: 460px;
     margin: 0;
+
+    @media screen and (max-width: 1139px) {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: $font-s;
+        line-height: $height-s;
+        max-width: 200px;
+    }
 }
 
 @mixin text {
     font-family: "Golos";
     margin: 0;
     font-weight: $normal-w;
-    font-size: $text;
-    line-height: $height-s;
+    font-size: $font-xs;
+    line-height: $height-xs;
     color: $light-color;
 }
 
 @mixin navigation-list {
     font-family: "Golos";
     font-weight: $medium-w;
-    font-size: $subtitle;
-    line-height: $height-m;
+    font-size: $font-l;
+    line-height: $height-l;
     text-align: center;
     text-transform: uppercase;
     color: $light-color;
@@ -69,8 +97,8 @@
     cursor: pointer;
     font-family: "Golos";
     font-weight: $medium-w;
-    font-size: $text;
-    line-height: $height-s;
+    font-size: $font-xs;
+    line-height: $height-xs;
     text-transform: uppercase;
     color: $light-color;
 }

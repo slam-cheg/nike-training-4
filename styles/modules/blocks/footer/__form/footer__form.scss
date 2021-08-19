@@ -1,4 +1,10 @@
 .footer__form {
     margin: 0 auto;
     padding-bottom: 40px;
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        max-width: calc(100% - 40px);
+    }
 }

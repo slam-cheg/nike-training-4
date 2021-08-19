@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/index.css">
     <title>NIKE X MMW TRAINING 4.0</title>
 </head>
 
 <body class="page">
+
     <header class="header">
         <div class="header__burger">
             <span class="header__burger-line"></span>
@@ -31,13 +33,17 @@
                 </ul>
             </nav>
         </div>
+
         <h1 class="title_header">NIKE X MMW TRAINING 4.0</h1>
+
     </header>
 
     <main>
+
         <section class="banner">
             <img src="images/main-background.jpg" alt="найк тренинг 4.0" class="banner">
         </section>
+
         <section class="about">
             <h2 class="title">О коллекции</h2>
             <div class="two-columns">
@@ -51,10 +57,12 @@
                     <img src="images/about-image.jpg" alt="о коллекции" class="about__image">
                 </div>
             </div>
-            <img src="images/third-image.jpg" alt="о коллекции" class="banner">
+
+            <img src="images/third-image.jpg" alt="о коллекции" class="banner banner_secondary">
+
             <div class="two-columns">
                 <div class="two-columns__container">
-                    <p class="about__subtitle">Тренинг&nbsp;&mdash; это не&nbsp;просто физическая активность</p>
+                    <p class="about__subtitle">Тренинг&nbsp;&mdash; это&nbsp;не&nbsp;просто физическая активность</p>
                 </div>
                 <div class="two-columns__container">
                     <p class="about__text">Это практика для тела и&nbsp;разума, за&nbsp;которой стоят концентрация
@@ -71,7 +79,7 @@
 
         <section class="products">
             <h2 class="title">Товары</h2>
-            <div class="slider">
+            <!--            <div class="slider">
                 <button class="slider__arrow slider__arrow_left" type="button" aria-label="назад"></button>
                 <div class="slider__track">
 
@@ -118,6 +126,64 @@
                 </div>
                 <button class="slider__arrow slider__arrow_right" type="button" aria-label="вперед"></button>
             </div>
+-->
+
+            <div class="slider swiper-container">
+                <div class="slider__track swiper-wrapper">
+                    <div class="slider__card swiper-slide">
+
+                        <img src="images/slider-1.jpg" alt="товар один" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+
+                    </div>
+                    <div class="slider__card swiper-slide">
+
+                        <img src="images/slider-2.jpg" alt="товар два" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+
+                    </div>
+                    <div class="slider__card swiper-slide">
+
+                        <img src="images/slider-3.jpg" alt="товар три" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+
+                    </div>
+                    <div class="slider__card swiper-slide">
+
+                        <img src="images/slider-4.jpg" alt="товар четыре" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+
+                    </div>
+                    <div class="slider__card swiper-slide">
+
+                        <img src="images/slider-5.jpg" alt="товар пять" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+
+                    </div>
+                    <div class="slider__card swiper-slide">
+
+                        <img src="images/slider-6.jpg" alt="товар шесть" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+
+                    </div>
+                    <div class="slider__card swiper-slide">
+
+                        <img src="images/slider-7.jpg" alt="товар семь" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+
+                    </div>
+                    <div class="slider__card swiper-slide">
+
+                        <img src="images/slider-8.jpg" alt="товар семь" class="slider__image">
+                        <button class="slider__button" type="button" aria-label="Купить">Купить</button>
+
+                    </div>
+                </div>
+                <div class="slider__arrow slider__arrow_left swiper-button-prev"></div>
+                <div class="slider__arrow slider__arrow_right swiper-button-next"></div>
+                <div class="slider__scrollbar swiper-scrollbar"></div>
+            </div>
+
             <div class="two-columns">
                 <div class="two-columns__container"></div>
                 <div class="two-columns__container">
@@ -129,8 +195,11 @@
                 </div>
             </div>
         </section>
-        <section class="banner">
-            <img src="images/footer-banner.jpg" alt="Найк" class="banner">
+
+        <section class="banner banner_secondary">
+
+            <img src="images/footer-banner.jpg" alt="Найк" class="banner banner_secondary">
+
         </section>
     </main>
 
@@ -144,6 +213,8 @@
         </form>
         <p class="footer__copyright">&copy;&nbsp;Nike, Inc., 2021. Какие-то права защищены.</p>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script/index.js"></script>
 </body>
 
