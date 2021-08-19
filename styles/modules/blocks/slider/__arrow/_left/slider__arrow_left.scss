@@ -1,6 +1,6 @@
 .slider__arrow_left {
     @include background-settings;
-    background-image: url('../../../../../../images/arrow-left.svg');
+    background-image: url('../images/arrow-left.svg');
     left: 20px;
     opacity: 1 !important;
 }
