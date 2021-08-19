@@ -1,10 +1,13 @@
 # nike-training-4
 Проект "Nike Training"
 
-Проект для тренировки работы с SCSS SASS.
+Проект для тренировки работы с SCSS.
 
 ### Технологии:
-html, sass, javascript.
+html, css, sass, javascript.
+
+### Подключаемая библиотека:
+SWIPER slider
 
 ### Функционал:
 Промо лендинг нескольких товаров Nike.
