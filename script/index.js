@@ -4,7 +4,38 @@ const menuCover = document.querySelector('.header__menu');
 const sliderTrack = document.querySelector('.slider__track');
 const nextButton = document.querySelector('.slider__arrow_right');
 const prevButton = document.querySelector('.slider__arrow_left');
-const cardWidth = document.querySelector('.slider__card').offsetWidth;
+
+new Swiper('.swiper-container', {
+
+    navigation: {
+        nextEl: '.slider__arrow_right',
+        prevEl: '.slider__arrow_left'
+    },
+
+    scrollbar: {
+        el: '.swiper-scrollbar',
+        graggable: true
+    },
+
+    slideToClickedSlide: true,
+    
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2.5,
+        },
+        1439: {
+            slidesPerView: 4.5,
+        }
+    }
+    
+
+});
+
+
+/*const cardWidth = document.querySelector('.slider__card').offsetWidth;
 
 let offset = 0;
 
@@ -30,10 +61,11 @@ prevButton.addEventListener('click', function () {
 
 });
 
-
+*/
 burger.addEventListener('click', function () {
     openMenu()
 });
+
 closeButton.addEventListener('click', function () {
     closeMenu()
 });

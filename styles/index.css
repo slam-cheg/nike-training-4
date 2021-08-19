@@ -230,19 +230,16 @@
 
 .slider__card {
   position: relative;
-  width: 326px;
-}
-@media screen and (max-width: 768px) {
-  .slider__card {
-    width: 320px;
-    height: 400px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .slider__card {
-    width: 100vw;
-    height: 400px;
-  }
+  /*
+      @media screen and (max-width: 768px) {
+          width: 320px;
+          height: 400px;
+      }
+
+      @media screen and (max-width: 400px) {
+          width: 100vw;
+          height: 400px;
+      } */
 }
 
 .slider__image {
@@ -270,22 +267,6 @@
   .slider__button {
     width: calc(100% - 40px);
   }
-}
-
-::-webkit-scrollbar {
-  height: 4px;
-  width: 4px;
-  background: #292929;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #EBEBEB;
-  border-radius: 100px;
-}
-
-::-webkit-scrollbar-thumb:horizontal {
-  background: #000;
-  border-radius: 100px;
 }
 
 .slider__arrow_left {
@@ -323,22 +304,39 @@
   z-index: 9999;
 }
 
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+  content: none !important;
+}
+
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+  content: none !important;
+}
+
 .slider__track {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow: auto;
-  position: absolute;
-  top: 0;
-  transition: 0.3s;
+  height: unset;
+}
+
+.swiper-scrollbar-drag {
+  background: #EBEBEB;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  z-index: 50;
+  margin: 40px auto 0 auto;
+  height: 5px;
+  background-color: #292929;
+  width: calc(100% - 40px);
+}
+@media screen and (max-width: 768px) {
+  .swiper-container-horizontal > .swiper-scrollbar {
+    margin: 20px auto 0 auto;
+  }
 }
 
 .slider {
-  display: flex;
-  position: relative;
-  align-items: center;
-  height: 400px;
-  overflow: hidden;
   margin-top: 80px;
 }
 @media screen and (max-width: 768px) {
@@ -349,19 +347,16 @@
 
 .slider__card {
   position: relative;
-  width: 326px;
-}
-@media screen and (max-width: 768px) {
-  .slider__card {
-    width: 320px;
-    height: 400px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .slider__card {
-    width: 100vw;
-    height: 400px;
-  }
+  /*
+      @media screen and (max-width: 768px) {
+          width: 320px;
+          height: 400px;
+      }
+
+      @media screen and (max-width: 400px) {
+          width: 100vw;
+          height: 400px;
+      } */
 }
 
 .slider__image {

@@ -1,14 +1,3 @@
 .slider__card {
     position: relative;
-    width: 326px;
-
-    @media screen and (max-width: 768px) {
-        width: 320px;
-        height: 400px;
-    }
-
-    @media screen and (max-width: 400px) {
-        width: 100vw;
-        height: 400px;
-    }
 }

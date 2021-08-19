@@ -3,13 +3,9 @@
 @import './__button/slider__button.scss';
 @import './__arrow/slider__arrow.scss';
 @import './__track/slider__track.scss';
+@import './__scrollbar/slider__scrollbar.scss';
 
 .slider {
-    display: flex;
-    position: relative;
-    align-items: center;
-    height: 400px;
-    overflow: hidden;
     margin-top: 80px;
 
     @media screen and (max-width: 768px) {
