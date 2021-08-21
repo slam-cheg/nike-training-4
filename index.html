@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="Ru">
 
 <head>
@@ -34,28 +35,31 @@
             </nav>
         </div>
 
-        <h1 class="title_header">NIKE X MMW TRAINING 4.0</h1>
+        <h1 class="title title_header">
+            <span class="title__slicer">NIKE X MMW</span>
+            <span class="title__slicer">TRAINING 4.0</span>
+        </h1>
 
     </header>
 
     <main>
 
-        <section class="banner">
+        <div class="banner">
             <img src="images/main-background.jpg" alt="найк тренинг 4.0" class="banner">
-        </section>
+        </div>
 
-        <section class="about">
-            <a class="nav-link" name="about"></a>
+        <section class="about" id="about">
             <h2 class="title">О коллекции</h2>
             <div class="two-columns">
                 <div class="two-columns__container">
-                    <p class="about__text">Разум или тело, движение или покой, спорт или отдых&nbsp;&mdash; дисциплина
+                    <p class="two-columns__text">Разум или тело, движение или покой, спорт или отдых&nbsp;&mdash;
+                        дисциплина
                         всегда остаётся движущей силой прогресса. Открой для себя мир невероятной концентрации
                         и&nbsp;преданности делу. Дизайнер Мэттью Уильямс, визажистка Исамайя Ффренч и&nbsp;музыкант
                         Ив&nbsp;Тюмор показывают, каких результатов можно достичь благодаря упорству.</p>
                 </div>
                 <div class="two-columns__container">
-                    <img src="images/about-image.jpg" alt="о коллекции" class="about__image">
+                    <img src="images/about-image.jpg" alt="о коллекции" class="two-columns__image">
                 </div>
             </div>
 
@@ -63,10 +67,11 @@
 
             <div class="two-columns">
                 <div class="two-columns__container">
-                    <p class="about__subtitle">Тренинг&nbsp;&mdash; это&nbsp;не&nbsp;просто физическая активность</p>
+                    <p class="two-columns__subtitle">Тренинг&nbsp;&mdash; это&nbsp;не&nbsp;просто</p>
+                    <p class="two-columns__subtitle"> физическая активность</p>
                 </div>
                 <div class="two-columns__container">
-                    <p class="about__text">Это практика для тела и&nbsp;разума, за&nbsp;которой стоят концентрация
+                    <p class="two-columns__text">Это практика для тела и&nbsp;разума, за&nbsp;которой стоят концентрация
                         и&nbsp;дисциплина. Мэттью Уильямс выражает эту идею через чередование движения
                         и&nbsp;осознанности.
                         Исамайя Ффренч исследует свою способность совершать тяжёлые повторяющиеся действия
@@ -78,8 +83,7 @@
             </div>
         </section>
 
-        <section class="products">
-            <a class="nav-link" name="products"></a>
+        <section class="products" id="products">
             <h2 class="title">Товары</h2>
 
             <div class="slider swiper-container">
@@ -141,7 +145,8 @@
             <div class="two-columns">
                 <div class="two-columns__container"></div>
                 <div class="two-columns__container">
-                    <p class="products__text">Дисциплина&nbsp;&mdash; упражнение, которое ты&nbsp;практикуешь ежедневно.
+                    <p class="two-columns__text">Дисциплина&nbsp;&mdash; упражнение, которое ты&nbsp;практикуешь
+                        ежедневно.
                         Ты&nbsp;учишь свои разум и&nbsp;тело переносить суровые условия и&nbsp;достигать невозможного.
                         Раскрой свою внутреннюю силу с&nbsp;новой коллекцией MMW, в&nbsp;которой идея дисциплины
                         передается
@@ -150,21 +155,18 @@
             </div>
         </section>
 
-        <section class="banner banner_secondary">
-
+        <div class="banner banner_secondary">
             <img src="images/footer-banner.jpg" alt="Найк" class="banner banner_secondary">
-
-        </section>
+        </div>
     </main>
 
-    <footer class="footer">
-        <a class="nav-link" name="subscribe"></a>
+    <footer class="footer" id="subscribe">
         <h2 class="title">Подписаться</h2>
         <p class="footer__text">Укажите свой email чтобы быть в&nbsp;курсе даты релиза, и&nbsp;других новостей
             о&nbsp;коллекции</p>
-        <form action="submit" class="footer__form">
-            <input class="footer__form_input" type="emali" placeholder="Введите email">
-            <button class="footer__form_button">Подписаться</button>
+        <form action="submit" class="footer__form" name="subscribe-form">
+            <input class="footer__form-input" name="email" value="Введите email">
+            <button class="footer__form-button" type="button">Подписаться</button>
         </form>
         <p class="footer__copyright">&copy;&nbsp;Nike, Inc., 2021. Какие-то права защищены.</p>
     </footer>

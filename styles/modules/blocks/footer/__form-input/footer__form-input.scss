@@ -1,4 +1,4 @@
-.footer__form_input {
+.footer__form-input {
     @include text;
     border: none;
     border-radius: 100px;
@@ -8,8 +8,10 @@
     color: $dark-color;
     width: 278px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         width: 100%;
         margin-bottom: 10px;
+        margin-right: 0;
+        box-sizing: border-box;
     }
 }

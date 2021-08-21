@@ -2,15 +2,52 @@
 @import '../vendor/fonst/fonts.css';
 @import './modules/mixins.scss';
 @import './modules/variables.scss';
+
 @import './modules/blocks/title/title.scss';
+@import './modules/blocks/title/_header/title_header.scss';
+@import './modules/blocks/title/__slicer/title__slicer.scss';
+
 @import './modules/blocks/page/page.scss';
+
 @import './modules/blocks/header/header.scss';
+@import './modules/blocks/header/__burger/header__burger.scss';
+@import './modules/blocks/header/__burger-line/header__burger-line.scss';
+@import './modules/blocks/header/__menu/header__menu.scss';
+@import './modules/blocks/header/__menu/_opened/header__menu_opened.scss';
+@import './modules/blocks/header/__menu-line/header__menu-line.scss';
+@import './modules/blocks/header/__menu-icon/header__menu-icon.scss';
+@import './modules/blocks/header/__navigation-list/header__navigation-list.scss';
+@import './modules/blocks/header/__navigation-item/header__navigation-item.scss';
+
 @import './modules/blocks/about/about.scss';
+
 @import './modules/blocks/products/products.scss';
+@import './modules/blocks/products/__text/products__text.scss';
+
 @import './modules/blocks/slider/slider.scss';
 @import './modules/blocks/slider/__card/slider__card.scss';
 @import './modules/blocks/slider/__image/slider__image.scss';
+@import './modules/blocks/slider/__card/slider__card.scss';
+@import './modules/blocks/slider/__image/slider__image.scss';
+@import './modules/blocks/slider/__button/slider__button.scss';
+@import './modules/blocks/slider/__arrow/slider__arrow.scss';
+@import './modules/blocks/slider/__arrow/_left/slider__arrow_left.scss';
+@import './modules/blocks/slider/__arrow/_right/slider__arrow_right.scss';
+@import './modules/blocks/slider/__track/slider__track.scss';
+@import './modules/blocks/slider/__scrollbar/slider__scrollbar.scss';
+
 @import './modules/blocks/banner/banner.scss';
+@import './modules/blocks/banner/_secondary/banner_secondary.scss';
+
 @import './modules/blocks/two-columns/two-columns.scss';
 @import './modules/blocks/two-columns/__container/two-columns__container.scss';
+@import './modules/blocks/two-columns/__text/two-columns__text.scss';
+@import './modules/blocks/two-columns/__image/two-columns__image.scss';
+@import './modules/blocks/two-columns/__subtitle/two-columns__subtitle.scss';
+
 @import './modules/blocks/footer/footer.scss';
+@import './modules/blocks/footer/__text/footer__text.scss';
+@import './modules/blocks/footer/__form/footer__form.scss';
+@import './modules/blocks/footer/__form-button/footer__form-button.scss';
+@import './modules/blocks/footer/__form-input/footer__form-input.scss';
+@import './modules/blocks/footer/__copyright/footer__copyright.scss';

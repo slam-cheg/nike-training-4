@@ -1,3 +1,5 @@
 .title_header {
     @include h1;
+    display: flex;
+    flex-direction: column;
 }
