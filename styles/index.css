@@ -228,6 +228,7 @@
 
 .slider {
   margin-top: 80px;
+  position: relative;
 }
 @media screen and (max-width: 767px) {
   .slider {
@@ -343,6 +344,14 @@
   .swiper-container-horizontal > .swiper-scrollbar {
     margin: 20px auto 0 auto;
   }
+}
+
+.swiper-horizontal > .swiper-scrollbar {
+  position: relative;
+  margin: 20px 0 0 0;
+  z-index: 50;
+  height: 5px;
+  width: calc(100% - 40px);
 }
 
 .banner {
