@@ -229,6 +229,7 @@
 .slider {
   margin-top: 80px;
   position: relative;
+  overflow: hidden;
 }
 @media screen and (max-width: 767px) {
   .slider {
